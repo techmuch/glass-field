@@ -1,0 +1,19 @@
+[workspace]
+authors = ["David Fullmer <david.d.fullmer@gmail.com>"]
+channels = ["conda-forge"]
+name = "glass-field"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+setuptools = "<70"
+python = "3.9.*"
+jupyterlab = ">=4.4.6,<5"
+networkx = ">=3.2.1,<4"
+pytorch = ">=2.7.1,<3"
+pandas = ">=2.3.1,<3"
+
+[pypi-dependencies]
+pyreason = ">=3.2.0, <4"

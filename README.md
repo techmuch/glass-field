@@ -44,10 +44,10 @@ To ensure scientific rigor and reproducibility in our data science workflow, we 
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/project-glass-field.git
-cd project-glass-field
+git clone https://github.com/techmuch/glass-field.git
+cd glass-field
 
-# Pixi will automatically install Python 3.11, PyReason, NetworkX, and Jupyter Lab
+# Pixi will automatically install Python 3.9, PyReason, NetworkX, and Jupyter Lab
 # creating an isolated environment for the project.
 pixi install
 ```
