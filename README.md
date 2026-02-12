@@ -57,6 +57,7 @@ To start the interactive environment for analyzing plays, visualizations, and lo
 ```bash
 pixi run jupyter lab
 ```
+Open **`analysis_notebook.ipynb`** for a step-by-step walkthrough of the neuro-symbolic pipeline.
 
 ### Quick Start: Analyzing a Single Play (in Notebook)
 Open `analysis_notebook.ipynb` in Jupyter Lab and run the following neuro-symbolic audit:
