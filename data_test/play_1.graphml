@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="edge" attr.name="type" attr.type="string" />
+  <key id="d4" for="edge" attr.name="strength" attr.type="double" />
+  <key id="d3" for="node" attr.name="y" attr.type="long" />
+  <key id="d2" for="node" attr.name="x" attr.type="long" />
+  <key id="d1" for="node" attr.name="team" attr.type="string" />
+  <key id="d0" for="node" attr.name="role" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="QB_01">
+      <data key="d0">Passer</data>
+      <data key="d1">Home</data>
+      <data key="d2">10</data>
+      <data key="d3">25</data>
+    </node>
+    <node id="WR_01">
+      <data key="d0">Receiver</data>
+      <data key="d1">Home</data>
+      <data key="d2">30</data>
+      <data key="d3">10</data>
+    </node>
+    <node id="DB_01">
+      <data key="d0">Defender</data>
+      <data key="d1">Away</data>
+      <data key="d2">28</data>
+      <data key="d3">12</data>
+    </node>
+    <edge source="QB_01" target="WR_01">
+      <data key="d4">0.8</data>
+      <data key="d5">VECTOR</data>
+    </edge>
+    <edge source="DB_01" target="WR_01">
+      <data key="d5">INFLUENCE</data>
+    </edge>
+  </graph>
+</graphml>

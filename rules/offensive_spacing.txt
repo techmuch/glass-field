@@ -1,0 +1,2 @@
+// If a defender is far from a receiver, the receiver is vulnerable (open)
+vulnerable(x) : [1,1] <- receiver(x), defender(y), remote(x,y), NOT defender_near(x) [0,5]

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="node" attr.name="y" attr.type="long" />
+  <key id="d2" for="node" attr.name="x" attr.type="long" />
+  <key id="d1" for="node" attr.name="team" attr.type="string" />
+  <key id="d0" for="node" attr.name="role" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="RB_01">
+      <data key="d0">Rusher</data>
+      <data key="d1">Home</data>
+      <data key="d2">15</data>
+      <data key="d3">25</data>
+    </node>
+  </graph>
+</graphml>
